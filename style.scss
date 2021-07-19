@@ -26,14 +26,11 @@ p {
 #tokenomics,
 #roadmap,
 #social {
-  min-height: 100vh;
+  min-height: 60vh;
 }
 
 #about {
   background: #0bcafe;
-}
-#roadmap {
-  background: #f43f08;
 }
 #whitepaper {
   background: #0bcafe;
@@ -45,7 +42,7 @@ p {
     width: 50%;
     margin: 0 auto;
 
-    @media (max-width: 800px) {
+    @media (max-width: 1100px) {
       width: 100%;
     }
 
@@ -57,7 +54,7 @@ p {
   .title {
     z-index: 99;
     position: absolute;
-    top: 20%;
+    top: 13%;
     left: 10%;
     font-size: 40px;
 
@@ -111,10 +108,10 @@ p {
     margin: 15px auto;
     width: max-content;
 
-    font-size: 25px;
+    font-size: 20px;
 
     h2 {
-      font-weight: 900;
+      font-weight: 500;
     }
 
     text-align: center;
@@ -125,11 +122,7 @@ p {
   width: 80%;
   margin: 15px auto;
 
-  padding: 150px 0 50px;
-
-  @media (max-width: 800px) {
-    padding: 50px 0;
-  }
+  padding: 50px 0;
 }
 
 #about {
@@ -137,11 +130,8 @@ p {
     width: 80%;
     margin: 15px auto;
 
-    padding: 150px 0 50px;
+    padding: 50px 0;
 
-    @media (max-width: 800px) {
-      padding: 50px 0;
-    }
     .aboutshib {
       margin: 25px 0;
       font-size: 25px;
@@ -169,5 +159,124 @@ p {
     font-size: 25px;
     margin: 25px 0;
     font-weight: 900;
+  }
+
+  .pie {
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+    width: 60%;
+    margin: 55px auto;
+    img {
+      width: 100%;
+    }
+  }
+
+  .dist {
+    width: 100%;
+    margin: 20px 0;
+
+    .container {
+      display: flex;
+      margin: 25px 0;
+
+      .whitelist,
+      .presale,
+      .lp,
+      .marketing,
+      .giveaway {
+        padding: 40px;
+        text-align: center;
+
+        cursor: pointer;
+
+        @media (max-width: 800px) {
+          padding: 20px 5px;
+          font-size: 11px;
+        }
+      }
+
+      .whitelist {
+        background-color: #ffe00b;
+        width: 20%;
+
+        &:hover {
+          background-color: #fff196;
+        }
+      }
+
+      .presale {
+        background-color: #fc7e81;
+        width: 25%;
+
+        &:hover {
+          background-color: #ffb4b5;
+        }
+      }
+
+      .lp {
+        background-color: #f99a28;
+        width: 32%;
+
+        &:hover {
+          background-color: #ffc988;
+        }
+      }
+
+      .marketing {
+        background-color: #0bcafe;
+        width: 11%;
+
+        &:hover {
+          background-color: #6ee0ff;
+        }
+      }
+
+      .giveaway {
+        background-color: #f43f08;
+        width: 12%;
+
+        &:hover {
+          background-color: #ffac93;
+        }
+      }
+    }
+
+    .breakdown {
+      .wl,
+      .ps,
+      .liqp,
+      .mark,
+      .ga {
+        display: flex;
+        margin: 10px 0;
+      }
+
+      .block-wl,
+      .block-ps,
+      .block-liqp,
+      .block-mark,
+      .block-ga {
+        width: 10%;
+        background: black;
+        margin-right: 10px;
+      }
+
+      .block-wl {
+        background-color: #ffe00b;
+      }
+      .block-ps {
+        background-color: #fc7e81;
+      }
+      .block-liqp {
+        background-color: #f99a28;
+      }
+      .block-mark {
+        background-color: #0bcafe;
+      }
+      .block-ga {
+        background-color: #f43f08;
+      }
+    }
   }
 }

@@ -27,15 +27,11 @@ p {
 #tokenomics,
 #roadmap,
 #social {
-  min-height: 100vh;
+  min-height: 60vh;
 }
 
 #about {
   background: #0bcafe;
-}
-
-#roadmap {
-  background: #f43f08;
 }
 
 #whitepaper {
@@ -48,7 +44,7 @@ p {
   margin: 0 auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   #open .logo {
     width: 100%;
   }
@@ -61,7 +57,7 @@ p {
 #open .title {
   z-index: 99;
   position: absolute;
-  top: 20%;
+  top: 13%;
   left: 10%;
   font-size: 40px;
 }
@@ -127,36 +123,24 @@ p {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
 }
 
 #open .presale h2 {
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .content {
   width: 80%;
   margin: 15px auto;
-  padding: 150px 0 50px;
-}
-
-@media (max-width: 800px) {
-  .content {
-    padding: 50px 0;
-  }
+  padding: 50px 0;
 }
 
 #about .content {
   width: 80%;
   margin: 15px auto;
-  padding: 150px 0 50px;
-}
-
-@media (max-width: 800px) {
-  #about .content {
-    padding: 50px 0;
-  }
+  padding: 50px 0;
 }
 
 #about .content .aboutshib {
@@ -188,5 +172,139 @@ p {
   font-size: 25px;
   margin: 25px 0;
   font-weight: 900;
+}
+
+#tokenomics .pie {
+  width: 60%;
+  margin: 55px auto;
+}
+
+@media (max-width: 800px) {
+  #tokenomics .pie {
+    width: 100%;
+  }
+}
+
+#tokenomics .pie img {
+  width: 100%;
+}
+
+#tokenomics .dist {
+  width: 100%;
+  margin: 20px 0;
+}
+
+#tokenomics .dist .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25px 0;
+}
+
+#tokenomics .dist .container .whitelist,
+#tokenomics .dist .container .presale,
+#tokenomics .dist .container .lp,
+#tokenomics .dist .container .marketing,
+#tokenomics .dist .container .giveaway {
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  #tokenomics .dist .container .whitelist,
+  #tokenomics .dist .container .presale,
+  #tokenomics .dist .container .lp,
+  #tokenomics .dist .container .marketing,
+  #tokenomics .dist .container .giveaway {
+    padding: 20px 5px;
+    font-size: 11px;
+  }
+}
+
+#tokenomics .dist .container .whitelist {
+  background-color: #ffe00b;
+  width: 20%;
+}
+
+#tokenomics .dist .container .whitelist:hover {
+  background-color: #fff196;
+}
+
+#tokenomics .dist .container .presale {
+  background-color: #fc7e81;
+  width: 25%;
+}
+
+#tokenomics .dist .container .presale:hover {
+  background-color: #ffb4b5;
+}
+
+#tokenomics .dist .container .lp {
+  background-color: #f99a28;
+  width: 32%;
+}
+
+#tokenomics .dist .container .lp:hover {
+  background-color: #ffc988;
+}
+
+#tokenomics .dist .container .marketing {
+  background-color: #0bcafe;
+  width: 11%;
+}
+
+#tokenomics .dist .container .marketing:hover {
+  background-color: #6ee0ff;
+}
+
+#tokenomics .dist .container .giveaway {
+  background-color: #f43f08;
+  width: 12%;
+}
+
+#tokenomics .dist .container .giveaway:hover {
+  background-color: #ffac93;
+}
+
+#tokenomics .dist .breakdown .wl,
+#tokenomics .dist .breakdown .ps,
+#tokenomics .dist .breakdown .liqp,
+#tokenomics .dist .breakdown .mark,
+#tokenomics .dist .breakdown .ga {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0;
+}
+
+#tokenomics .dist .breakdown .block-wl,
+#tokenomics .dist .breakdown .block-ps,
+#tokenomics .dist .breakdown .block-liqp,
+#tokenomics .dist .breakdown .block-mark,
+#tokenomics .dist .breakdown .block-ga {
+  width: 10%;
+  background: black;
+  margin-right: 10px;
+}
+
+#tokenomics .dist .breakdown .block-wl {
+  background-color: #ffe00b;
+}
+
+#tokenomics .dist .breakdown .block-ps {
+  background-color: #fc7e81;
+}
+
+#tokenomics .dist .breakdown .block-liqp {
+  background-color: #f99a28;
+}
+
+#tokenomics .dist .breakdown .block-mark {
+  background-color: #0bcafe;
+}
+
+#tokenomics .dist .breakdown .block-ga {
+  background-color: #f43f08;
 }
 /*# sourceMappingURL=style.css.map */
