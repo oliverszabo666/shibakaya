@@ -21,6 +21,11 @@ p {
   line-height: 1.5;
 }
 
+#nav {
+  position: fixed;
+  right: 0;
+}
+
 #open,
 #about,
 #tokenomics,
@@ -277,6 +282,23 @@ p {
       .block-ga {
         background-color: #f43f08;
       }
+    }
+  }
+}
+
+#whitepaper {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+  .white1,
+  .white2 {
+    img {
+      width: 100%;
+      padding: 50px;
     }
   }
 }

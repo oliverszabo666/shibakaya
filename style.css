@@ -22,6 +22,11 @@ p {
   line-height: 1.5;
 }
 
+#nav {
+  position: fixed;
+  right: 0;
+}
+
 #open,
 #about,
 #tokenomics,
@@ -306,5 +311,28 @@ p {
 
 #tokenomics .dist .breakdown .block-ga {
   background-color: #f43f08;
+}
+
+#whitepaper {
+  margin: 0 auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  #whitepaper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#whitepaper .white1 img,
+#whitepaper .white2 img {
+  width: 100%;
+  padding: 50px;
 }
 /*# sourceMappingURL=style.css.map */
