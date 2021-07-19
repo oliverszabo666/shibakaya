@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;600;700&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Roboto Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  line-height: 1.5;
+}
+
+#open,
+#about,
+#tokenomics,
+#roadmap,
+#social {
+  min-height: 100vh;
+}
+
+#about {
+  background: #0bcafe;
+}
+
+#roadmap {
+  background: #f43f08;
+}
+
+#whitepaper {
+  background: #0bcafe;
+  min-height: 50vh;
+}
+
+#open .logo {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  #open .logo {
+    width: 100%;
+  }
+}
+
+#open .logo img {
+  width: 100%;
+}
+
+#open .title {
+  z-index: 99;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 40px;
+}
+
+#open .title .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#open .title .buttons a {
+  text-decoration: none;
+  text-align: center;
+  margin: 5px 0;
+  padding: 20px 10px;
+  background: black;
+  color: #ffe00b;
+  width: 50%;
+  font-size: 18px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  #open .title .buttons a {
+    width: 100%;
+  }
+}
+
+#open .title .buttons a:hover {
+  background-color: #ffe00b;
+  color: black;
+}
+
+@media (max-width: 1100px) {
+  #open .title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  #open .title {
+    font-size: 23px;
+    position: static;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin: 0 auto;
+  }
+}
+
+#open .presale {
+  margin: 15px auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 25px;
+  text-align: center;
+}
+
+#open .presale h2 {
+  font-weight: 900;
+}
+
+.content {
+  width: 80%;
+  margin: 15px auto;
+  padding: 150px 0 50px;
+}
+
+@media (max-width: 800px) {
+  .content {
+    padding: 50px 0;
+  }
+}
+
+#about .content {
+  width: 80%;
+  margin: 15px auto;
+  padding: 150px 0 50px;
+}
+
+@media (max-width: 800px) {
+  #about .content {
+    padding: 50px 0;
+  }
+}
+
+#about .content .aboutshib {
+  margin: 25px 0;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+#about .content .text {
+  font-size: 18px;
+}
+
+@media (max-width: 800px) {
+  #about .content .text {
+    font-size: 15px;
+  }
+}
+
+#about .content .text p {
+  margin: 15px 0;
+}
+
+#about .content .text .join {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+#tokenomics .tok {
+  font-size: 25px;
+  margin: 25px 0;
+  font-weight: 900;
+}
+/*# sourceMappingURL=style.css.map */
